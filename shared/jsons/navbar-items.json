@@ -1,0 +1,24 @@
+{
+	"items": [
+		{
+			"name": "Accueil",
+			"link": "/"
+		},
+		{
+			"name": "Planning",
+			"link": "/planning"
+		},
+		{
+			"name": "Au hasard",
+			"link": "/recipe"
+		},
+		{
+			"name": "Saisonniers",
+			"link": "/seasonal"
+		},
+		{
+			"name": "A propos de nous",
+			"link": "/about"
+		}
+	]
+}
