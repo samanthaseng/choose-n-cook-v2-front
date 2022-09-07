@@ -1,7 +1,20 @@
 {
   "name": "choose-n-cook-v2-front",
+  "description": "Choose n'Cook website front-end",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Samantha Seng",
+    "email": "seng.samanthas@gmail.com",
+    "url": "https://github.com/samanthaseng"
+  },
+  "contributors": [
+    {
+      "name": "Florian Rambur",
+      "email": "florianrambur@gmail.com",
+      "url": "https://github.com/florianrambur"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
