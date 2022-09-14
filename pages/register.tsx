@@ -1,7 +1,6 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
 import Link from 'next/link';
 import { Icon } from '@mui/material';
 
@@ -12,14 +11,14 @@ const Register: NextPage = () => {
 				<Link href="/">
 					<span className="text-base cursor-pointer flex items-center text-gray-400 hover:text-gray-500 font-sans">
 						<Icon>chevron_left</Icon>
-						Retourner à l'accueil
+						Retourner à l&apos;accueil
 					</span>
 				</Link>
 
 				<div className="w-full h-full flex justify-center items-center">
 					<div className="flex flex-col items-center w-1/3">
 						<h3 className="font-serif font-semibold text-lg mb-2">
-							S'enregistrer
+							S&apos;enregistrer
 						</h3>
 
 						<TextField
@@ -64,7 +63,7 @@ const Register: NextPage = () => {
 							type="button"
 							className="bg-[#e44b4d] hover:bg-[#FB3739] text-white font-medium py-2 px-4 mt-4 rounded-md uppercase text-base"
 						>
-							S'inscrire
+							S&apos;inscrire
 						</button>
 
 						<Link href="/login">
