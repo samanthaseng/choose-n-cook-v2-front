@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Header() {
 	return (
-		<div className='w-screen h-160 bg-[url("/images/home-image.jpg")] bg-cover bg-center'>
+		<div className='h-160 bg-[url("/images/home-image.jpg")] bg-cover bg-center'>
 			<div className="bg-neutral-800 h-full w-full bg-opacity-30 flex justify-center items-center flex-col">
 				<div className="flex justify-center">
 					<div className="border-slate-50 h-8 w-[50vw] border border-b-transparent"></div>
