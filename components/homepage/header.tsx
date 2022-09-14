@@ -17,7 +17,11 @@ export default function Header() {
 					</h2>
 				</div>
 
-				<div className="flex justify-between w-[50vw]">
+				<div className="flex justify-center">
+					<div className="border-slate-50 h-8 w-[50vw] border border-t-transparent"></div>
+				</div>
+
+				{/* <div className="flex justify-between w-[50vw]">
 					<div className="border-slate-50 h-8 w-[calc((100%-180px)/2-20px)] border border-t-transparent border-r-transparent"></div>
 					<Link href="/register">
 						<button
@@ -28,7 +32,7 @@ export default function Header() {
 						</button>
 					</Link>
 					<div className="border-slate-50 h-8 w-[calc((100%-180px)/2-20px)] border border-t-transparent border-l-transparent"></div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
