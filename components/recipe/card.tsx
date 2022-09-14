@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { Recipe } from '../../interfaces/Recipe';
 import { Card, CardContent, CardHeader, CardMedia } from '@material-ui/core';

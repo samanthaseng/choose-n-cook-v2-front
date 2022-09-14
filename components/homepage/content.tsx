@@ -4,7 +4,7 @@ import RecipeCard from '../recipe/card';
 
 export default function Content() {
 	const recipes = recipesListExample.recipes.map((recipe) => {
-		return <RecipeCard recipe={recipe} />;
+		return <RecipeCard recipe={recipe} key={recipe.id} />;
 	});
 
 	return (

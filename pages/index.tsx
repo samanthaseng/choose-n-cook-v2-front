@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Choose n'Cook</title>
+				<title>Choose n&apos;Cook</title>
 			</Head>
 
 			<Navbar />

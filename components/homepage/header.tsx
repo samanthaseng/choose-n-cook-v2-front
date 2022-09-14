@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 
 export default function Header() {
@@ -13,7 +12,9 @@ export default function Header() {
 					<h2 className="font-serif text-slate-50 text-center">
 						<span className="text-[30px] font-light my-2">Bienvenue sur</span>
 						<br />
-						<span className="text-[40px] font-medium my-5">Choose n'Cook</span>
+						<span className="text-[40px] font-medium my-5">
+							Choose n&apos;Cook
+						</span>
 					</h2>
 				</div>
 
