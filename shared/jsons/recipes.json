@@ -1,0 +1,52 @@
+{
+	"recipes": [
+		{
+			"id": 1,
+			"name": "Tarte épinards chèvre",
+			"slug": "tarte-epinards-chevre",
+			"preparationDuration": 10,
+			"cookingDuration": 30,
+			"image": "/images/pizza.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Recette inconnue",
+			"slug": "recette-iconnue",
+			"preparationDuration": 0,
+			"cookingDuration": 0,
+			"image": null
+		},
+		{
+			"id": 3,
+			"name": "Guacamole",
+			"slug": "guacamole",
+			"preparationDuration": 5,
+			"cookingDuration": 0,
+			"image": "/images/guacamole.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Tarte épinards chèvre",
+			"slug": "tarte-epinards-chevre-2",
+			"preparationDuration": 10,
+			"cookingDuration": 30,
+			"image": "/images/pizza.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Recette inconnue",
+			"slug": "recette-iconnue-2",
+			"preparationDuration": 0,
+			"cookingDuration": 0,
+			"image": null
+		},
+		{
+			"id": 6,
+			"name": "Guacamole",
+			"slug": "guacamole-2",
+			"preparationDuration": 5,
+			"cookingDuration": 0,
+			"image": "/images/guacamole.jpg"
+		}
+	]
+}

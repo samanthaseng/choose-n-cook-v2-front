@@ -4,7 +4,6 @@ export default function Document() {
 	return (
 		<Html lang="fr">
 			<Head>
-				<title>Choose n'Cook</title>
 				<link rel="icon" href="/logo-min.svg" />
 
 				<link
