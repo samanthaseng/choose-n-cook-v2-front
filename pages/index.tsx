@@ -8,6 +8,8 @@ const Home: NextPage = () => {
 		<>
 			<Navbar />
 			<HomePageHeader />
+
+			<Content />
 		</>
 	);
 };
