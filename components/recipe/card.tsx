@@ -1,7 +1,5 @@
 import React from 'react';
 import { Recipe } from '../../interfaces/Recipe';
-import { Card, CardContent, CardHeader, CardMedia } from '@material-ui/core';
-import styles from './card.module.css';
 import Link from 'next/link';
 
 export default function RecipeCard(props: { recipe: Recipe }) {
@@ -10,35 +8,29 @@ export default function RecipeCard(props: { recipe: Recipe }) {
 
 	return (
 		<Link href={`/recipes/${slug}`}>
-			<Card className={styles.card}>
-				<CardMedia
-					component="img"
-					image={image ?? '/images/default-image.jpg'}
-					alt={name}
-					className={styles.image}
-				/>
+			<div className='overflow-hidden rounded-md cursor-pointer w-60 shadow-xl m-[10px] mb-5'>
+				<div className={`bg-[url("${image ? image : '/images/default-image.jpg'}")] w-full bg-center bg-cover h-72`}></div>
 
-				<CardContent className={styles.durationWrapper}>
-					<div className={styles.duration}>
+				<div className='flex justify-around py-3'>
+					<div className='flex items-center'>
 						<img
 							src="./icons/balloon-whisk.svg"
-							className={styles.icon}
+							className='w-5 mr-1'
 							alt="Durée de préparation"
 						/>
-						<span>{preparationDuration} min</span>
+						<span className='font-serif text-sm uppercase'>{preparationDuration} min</span>
 					</div>
-					<div className={styles.duration}>
+					<div className='flex items-center'>
 						<img
 							src="./icons/kitchen-stove.svg"
-							className={styles.icon}
+							className='w-5 mr-1'
 							alt="Durée de cuisson"
 						/>
-						<span>{cookingDuration} min</span>
+						<span className='font-serif text-sm uppercase'>{cookingDuration} min</span>
 					</div>
-				</CardContent>
-
-				<CardHeader title={name} noWrap className={styles.header} />
-			</Card>
+				</div>
+				<h2 className='font-serif font-medium text-center truncate text-stone-900'>{name}</h2>
+			</div>
 		</Link>
 	);
 }
