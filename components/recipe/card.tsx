@@ -17,7 +17,7 @@ export default function RecipeCard(props: { recipe: Recipe }) {
 					className="h-[300px]"
 				/>
 
-				<CardContent className="flex justify-around pb-0 font-serif text-sm uppercase">
+				<CardContent className="flex justify-around font-serif text-sm uppercase" style={{ paddingBottom: 0 }}>
 					<div className="flex items-center">
 						<img
 							src="./icons/balloon-whisk.svg"
